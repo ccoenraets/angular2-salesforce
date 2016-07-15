@@ -1,5 +1,4 @@
-import {Component} from 'angular2/core';
-
+import {Component} from '@angular/core';
 import {Contact} from './contact';
 
 @Component({
@@ -25,7 +24,7 @@ import {Contact} from './contact';
             </div>
         </div>
     `,
-    styles:[`
+    styles: [`
         label {display:inline-block; width:100px; padding:8px}
         h2 {margin-top:0; font-weight:300}
         input[type=text] {-webkit-appearance:none; width:150px; height:24px; padding:4px 8px; font-size:14px; line-height:1.42857143; border:1px solid #ccc; border-radius:2px;-webkit-box-shadow:none; box-shadow:none}
@@ -33,5 +32,5 @@ import {Contact} from './contact';
 })
 
 export class ContactDetailComponent {
-    public contact: Contact;
+    contact: Contact;
 }
